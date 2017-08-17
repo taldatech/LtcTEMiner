@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">LtcTEMiner</string>
+    <!--Tabs Titles-->
+    <string name="settings_tab_title">Settings</string>
+    <string name="mine_tab_title">Mine</string>
+    <string name="rates_tab_title">Rates</string>
+    <string name="about_tab_title">About</string>
+    <string name="app_title">LTC MINER BY TAL AND EYAL</string>
+
+    <!--Settings-->
+    <string name="settings_title">Miner Settings</string>
+
+    <string name="settings_wifi_label">Wi-Fi-only Mining</string>
+    <string name="settings_wifi_key" translatable="false">wifi</string>
+    <string name="settings_wifi_default" translatable="false">true</string>
+    <string name="settings_wifi_summary" translatable="false">Enable/Disable Wi-Fi-only mining</string>
+
+    <string name="settings_charger_label">Charger-only Mining</string>
+    <string name="settings_charger_key" translatable="false">charger</string>
+    <string name="settings_charger_default" translatable="false">true</string>
+    <string name="settings_charger_summary" translatable="false">Enable/Disable Charger-only mining</string>
+
+    <string name="settings_pool_label">Default Pool Address</string>
+    <string name="settings_pool_key" translatable="false">pool_add</string>
+    <string name="settings_pool_default" translatable="false">Enter Pool Address</string>
+
+    <string name="pool_url_title" translatable="false">Pool URL (must start with &quot;stratum+tcp://&quot;)</string>
+    <string name="pool_url_format" translatable="false">stratum+tcp://</string>
+    <string name="settings_pick_url" translatable="false">Pick URL</string>
+    <string name="settings_new_url" translatable="false">New Pool URL</string>
+    <string name="use_default_url" translatable="false">Default Pool URL</string>
+    <string name="settings_new_url_enter" translatable="false">Enter Pool Address:</string>
+    <string name="settings_new_url_enter_title" translatable="false">New Pool URL</string>
+
+    <string name="settings_user_label">Default Username</string>
+    <string name="settings_user_key" translatable="false">user</string>
+    <string name="settings_user_default" translatable="false">Enter Pool Username</string>
+
+    <string name="settings_pick_user" translatable="false">Pick User</string>
+    <string name="settings_new_user" translatable="false">New User</string>
+    <string name="settings_new_user_enter" translatable="false">Enter Username:</string>
+    <string name="settings_new_user_enter_title" translatable="false">New Username</string>
+    <string name="settings_wallet_as_user" translatable="false">Use Wallet ID</string>
+
+    <string name="settings_password_label">Default Password</string>
+    <string name="settings_password_key" translatable="false">password</string>
+    <string name="settings_password_default" translatable="false">Enter Pool Password</string>
+    <string name="settings_password_hidden" translatable="false">Hidden</string>
+
+    <string name="settings_pick_pass" translatable="false">Pick Password</string>
+    <string name="settings_new_pass" translatable="false">New Password</string>
+    <string name="use_default_pass" translatable="false">Default Password</string>
+    <string name="settings_new_pass_enter" translatable="false">Enter Password:</string>
+    <string name="settings_new_pass_enter_title" translatable="false">New Password</string>
+
+
+    <string name="settings_wallet_label">Default Wallet ID</string>
+    <string name="settings_wallet_key" translatable="false">wallet</string>
+    <string name="settings_wallet_default" translatable="false">Enter Wallet ID</string>
+
+    <string name="settings_reset_label">Restore Defaults</string>
+    <string name="settings_reset_key" translatable="false">reset</string>
+    <string name="settings_reset_summary" translatable="false">Restore Default Settings</string>
+
+    <string name="change_amount">Change Amount</string>
+    <string name="card_rates_header_title">Exchange Rates for 1 LTC</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="card_wallet_header_title">Wallet Balance</string>
+
+    <string name="no_internet_coin">Error!</string>
+    <string name="no_internet_units">X</string>
+
+    <string name="bitcoin">Bitcoin</string>
+    <string name="bitcoin_units">BTC</string>
+
+    <string name="usd">USD</string>
+    <string name="usd_units">$</string>
+
+    <string name="ils">ILS</string>
+    <string name="ils_units">שח</string>
+
+    <string name="enter_amount">Enter LTC amount to convert:</string>
+    <string name="enter_amount_title">Set Amount</string>
+    <string name="enter_amount_default">1.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="long_text_for_about_fragment">"We are Electrical Engineering students of the Technion Institution, Israel.\n\nThe “LtcTEMiner” application was built as a part of a project under the NSSL lab of the faculty.\n\nThe app offers most android users the ability to mine Scrypt-based Cryptocurrency using their own device.
+        \nThis app is based on the JMiner project, and one of its branches JMiNya which implements Java-based Stratum connection.
+        \nProject supervisor is:\n Mr. Roman Kaplan."</string>
+
+    <string name="date">"\n*The project has been completed during April-September 2017."</string>
+
+    <string name="settings_service_background">Run On Background</string>
+    <string name="settings_service_screen">Keep Screen Awake</string>
+
+    <string name="settings_min_priority">Min</string>
+    <string name="settings_norm_priority">Med</string>
+    <string name="settings_max_priority">Max</string>
+
+    <string name="splash_warning">WARNING: USE AT YOUR OWN RISK\nUse of this app may lead to\nreduce in battery life and overheating\nof your device, use with care!</string>
+
+    <string name="main_tv_server">Server Address</string>
+    <string name="main_tv_username">Username:</string>
+    <string name="main_tv_password">Password</string>
+    <string name="main_button_start">Start Mining</string>
+    <string name="main_button_stop">Stop Mining</string>
+    <string name="main_tv_thread">"Threads: "</string>
+    <string name="main_button_settings">Settings</string>
+    <string name="main_tv_speed_lbl">Speed:</string>
+    <string name="tab_settings_title">Settings</string>
+    <string name="settings_threads_lbl">Threads:</string>
+    <string name="settings_scantime_lbl">Scan Time (ms):</string>
+    <string name="settings_retrypause_lbl">Retry Pause (ms):</string>
+    <string name="settings_service_lbl">Run in Background</string>
+    <string name="settings_donate_lbl">Donate</string>
+    <string name="settings_button_save">Save</string>
+    <string name="settings_button_default">Restore Defaults</string>
+    <string name="settings_textView_password_lbl">Password:</string>
+    <string name="settings_textView_user_lbl">Username:</string>
+    <string name="settings_server_lbl">Server URL</string>
+    <string name="settings_textView_throttle_lbl">Throttle (0-100%)</string>
+    <string name="settings_button_load">Load</string>
+    <string name="status_button_start">Start Mining</string>
+    <string name="status_textview_speed">Speed:</string>
+    <string name="settings_textview_threadpriority">Thread Priority:</string>
+    <string name="status_mining">Mining</string>
+    <string name="status_error">Error</string>
+    <string name="status_terminated">Terminated</string>
+    <string name="status_connecting">Connecting</string>
+    <string name="status_not_mining">Not Mining</string>
+    <string name="checkbox_keepscreenawake">Keep Screen Awake</string>
+
+    <string name="activity_miner_url">Pool URL:</string>
+    <string name="activity_miner_user">User:</string>
+    <string name="activity_miner_thread">Threads:</string>
+    <string name="activity_miner_priority">Priority:</string>
+    <string name="activity_miner_background">Run In Background:</string>
+    <string name="activity_miner_screen">Keep Screen Awake:</string>
+    <string name="activity_miner_on">ON</string>
+    <string name="activity_miner_off">OFF</string>
+    <string name="miner_activity_closeminer">Close Miner</string>
+    <string name="miner_activity_startmine">Start Mining</string>
+    <string name="miner_activity_actionbar_title">LtcTEMiner-Stratum Miner</string>
+
+</resources>

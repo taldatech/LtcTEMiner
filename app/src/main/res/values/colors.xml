@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ActionBarBackground">#ff5252</color>
+    <color name="AppNameColor">#eeeeee</color>
+    <color name="tab_background_selected">#424242</color>
+    <color name="tab_background_unselected">#424242</color>
+
+    <color name="card_text_color_header">#eeeeee</color>
+    <color name="card_native_base_cardwithlist_background_list_color">#ff8a65</color>
+    <color name="card_background">#eeeeee</color>
+    <color name="card_native_background">#4db6ac</color>
+
+    <color name="card_pressed">#7E0099CC</color>
+    <color name="card_activated">#CFE9F3</color>
+    <color name="card_foreground_activated">#eeeeee</color>
+
+    <color name="card_pressed_kitkat">#10000000</color>
+    <color name="card_activated_kitkat">#eeeeee</color>
+    <color name="card_foreground_activated_kitkat">#eeeeee</color>
+
+</resources>

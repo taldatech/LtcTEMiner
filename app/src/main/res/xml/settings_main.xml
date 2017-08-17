@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:title="@string/settings_wifi_label"
+        android:summary="@string/settings_wifi_summary"
+        android:key="@string/settings_wifi_key"/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:title="@string/settings_charger_label"
+        android:summary="@string/settings_charger_summary"
+        android:key="@string/settings_charger_key"/>
+
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_wallet_default"
+        android:inputType="text"
+        android:key="@string/settings_wallet_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_wallet_label"
+        android:summary="@string/settings_wallet_default"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_pool_default"
+        android:inputType="textEmailAddress"
+        android:key="@string/settings_pool_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_pool_label"
+        android:summary="@string/settings_pool_default"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_user_default"
+        android:inputType="text"
+        android:key="@string/settings_user_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_user_label"
+        android:summary="@string/settings_user_default"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_password_default"
+        android:inputType="textPassword"
+        android:key="@string/settings_password_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_password_label"
+        android:summary="@string/settings_password_default"/>
+
+    <Preference
+        android:title="@string/settings_reset_label"
+        android:key="@string/settings_reset_key"
+        android:summary="@string/settings_reset_summary">
+    </Preference>
+
+
+</PreferenceScreen>

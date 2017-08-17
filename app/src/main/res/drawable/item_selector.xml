@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+
+    <item android:state_activated="true" android:drawable="@drawable/activated_background_item_card"/>
+    <item android:state_pressed="true" android:drawable="@drawable/pressed_background_item_card"/>
+    <item android:drawable="@drawable/card_item_background"/>
+</selector>
