@@ -207,7 +207,7 @@ public class RatesFragment extends Fragment {
             walletBalacnceTv.setText("Enter Wallet ID in Settings");
         }
         else {
-            String requestUrl = "http://ltc.blockr.io/api/v1/address/balance/" + mWallet;
+            String requestUrl = "https://chainz.cryptoid.info/ltc/api.dws?q=getbalance&a=" + mWallet;
             mGetBalanceTask = new getBalanceAsyncTask();
             try {
                 balance = mGetBalanceTask.execute(requestUrl).get();

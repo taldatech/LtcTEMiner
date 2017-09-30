@@ -33,7 +33,8 @@ import static android.support.v7.widget.AppCompatDrawableManager.get;
 
 public class ExchangeRatesCard extends CardWithList {
 
-    public static final String dataUrl ="http://ltc.blockr.io/api/v1/exchangerate/current";
+    //public static final String dataUrl ="http://ltc.blockr.io/api/v1/exchangerate/current";
+    public static final String dataUrl ="https://min-api.cryptocompare.com/data/price?fsym=LTC&tsyms=BTC,USD,ILS";
     private getRatesAsyncTask mGetRatesTask;
     private double mAmount = 1.0;
     private boolean getError = false;

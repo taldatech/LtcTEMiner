@@ -67,13 +67,16 @@ public final class QueryUtilsRates {
             // TODO: Parse the response given by the SAMPLE_JSON_RESPONSE string and
             // build up a list of Earthquake objects with the corresponding data.
             JSONObject root = new JSONObject(jsonResponse);
-            JSONArray data = root.getJSONArray("data");
-            JSONObject dataCell =  data.getJSONObject(0);
-            JSONObject ratesCell = dataCell.getJSONObject("rates");//rates field
-            double usd_to_ltc = ratesCell.getDouble("LTC");
-            double ltc_to_btc = ratesCell.getDouble("BTC")/usd_to_ltc;
-            double ltc_to_usd = 1/usd_to_ltc;
-            double ltc_to_ils = ratesCell.getDouble("ILS")/usd_to_ltc;
+//            JSONArray data = root.getJSONArray("data");
+//            JSONObject dataCell =  data.getJSONObject(0);
+//            JSONObject ratesCell = dataCell.getJSONObject("rates");//rates field
+//            double usd_to_ltc = ratesCell.getDouble("LTC");
+//            double ltc_to_btc = ratesCell.getDouble("BTC")/usd_to_ltc;
+//            double ltc_to_usd = 1/usd_to_ltc;
+//            double ltc_to_ils = ratesCell.getDouble("ILS")/usd_to_ltc;
+            double ltc_to_btc = root.getDouble("BTC");
+            double ltc_to_usd = root.getDouble("USD");
+            double ltc_to_ils = root.getDouble("ILS");
             rates.add(ltc_to_btc);
             rates.add(ltc_to_usd);
             rates.add(ltc_to_ils);
